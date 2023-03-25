@@ -59,8 +59,8 @@ github.com/containers/common/pkg/flag
 github.com/containers/common/pkg/report
 github.com/containers/common/pkg/report/camelcase
 github.com/containers/common/pkg/retry
-# github.com/containers/image/v5 v5.24.2-0.20230215091257-15e211694ae5
-## explicit; go 1.18
+# github.com/containers/image/v5 v5.24.2
+## explicit; go 1.17
 github.com/containers/image/v5/copy
 github.com/containers/image/v5/directory
 github.com/containers/image/v5/directory/explicitfilepath
@@ -85,7 +85,6 @@ github.com/containers/image/v5/internal/pkg/platform
 github.com/containers/image/v5/internal/private
 github.com/containers/image/v5/internal/putblobdigest
 github.com/containers/image/v5/internal/rootless
-github.com/containers/image/v5/internal/set
 github.com/containers/image/v5/internal/signature
 github.com/containers/image/v5/internal/signer
 github.com/containers/image/v5/internal/streamdigest
@@ -251,6 +250,9 @@ github.com/docker/go-connections/tlsconfig
 github.com/docker/go-units
 # github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5
 ## explicit; go 1.9
+# github.com/ghodss/yaml v1.0.0
+## explicit
+github.com/ghodss/yaml
 # github.com/go-jose/go-jose/v3 v3.0.0
 ## explicit; go 1.12
 github.com/go-jose/go-jose/v3
@@ -541,12 +543,12 @@ github.com/ulikunitz/xz/lzma
 github.com/vbatts/tar-split/archive/tar
 github.com/vbatts/tar-split/tar/asm
 github.com/vbatts/tar-split/tar/storage
-# github.com/vbauerster/mpb/v8 v8.1.6
-## explicit; go 1.17
-github.com/vbauerster/mpb/v8
-github.com/vbauerster/mpb/v8/cwriter
-github.com/vbauerster/mpb/v8/decor
-github.com/vbauerster/mpb/v8/internal
+# github.com/vbauerster/mpb/v7 v7.5.3
+## explicit; go 1.14
+github.com/vbauerster/mpb/v7
+github.com/vbauerster/mpb/v7/cwriter
+github.com/vbauerster/mpb/v7/decor
+github.com/vbauerster/mpb/v7/internal
 # github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb
 ## explicit
 github.com/xeipuuv/gojsonpointer
